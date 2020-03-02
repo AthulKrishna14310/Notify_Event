@@ -1,18 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="290dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/album_card_background"
+        >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="18dp"
+            android:fontFamily="@font/comfortaa_light"
+            android:textSize="18sp"
+            style="@style/dhishna_tec"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dhishna_tec" />
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="185dp"
+            android:background="@drawable/image_view_bg"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="227dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/ic_my_location_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="42dp"
+            style="@style/soe_cusat"
+            android:text="@string/soe_cusat"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="15dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/ic_calendar_black_24dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="42dp"
+            style="@style/soe_cusat"
+            android:text="@string/date"
+            android:textSize="13sp"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

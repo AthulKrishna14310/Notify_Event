@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Notify_Event</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="register2">Register</string>
+    <string name="dhishna_tec">Dhishna Tech Fest 2020</string>
+    <string name="soe_cusat">SOE , CUSAT</string>
+    <string name="date">19 .1 .2020</string>
 </resources>

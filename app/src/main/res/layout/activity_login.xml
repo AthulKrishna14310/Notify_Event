@@ -5,7 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="#FFFF"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/log_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/log_in"
+        android:textSize="40sp"
+        app:fontFamily="@font/comfortaa_light" />
 
     <EditText
         android:id="@+id/editText"
@@ -13,10 +26,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="200dp"
         android:layout_marginLeft="10dp"
+        android:background="@drawable/edit_text_bg"
         android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
         android:hint="E-mail"
+        android:paddingLeft="20dp"
+
         android:inputType="textEmailAddress" />
     <EditText
         android:id="@+id/editPass"
@@ -28,6 +46,9 @@
         android:layout_marginRight="10dp"
         android:hint="Pass word"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_bg"
         android:inputType="textPassword" />
 
     <Button
@@ -35,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-
+        android:fontFamily="@font/comfortaa_light"
         android:layout_below="@id/editPass"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -53,8 +74,10 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
+        android:fontFamily="@font/comfortaa_light"
         android:background="@drawable/forgot_password"
-        android:padding="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:text="Forgot Password" />
 
     <Button
@@ -68,5 +91,6 @@
         android:layout_marginRight="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/comfortaa_light"
         android:textColor="#FFFF"/>
 </RelativeLayout>
