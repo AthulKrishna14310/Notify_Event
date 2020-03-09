@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QRcode">
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="588dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/qrcode_card_background"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/ic_settings_overscan_black_24dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="241dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/lorem_ipsum"
+            style="@style/lorem_ipsum"
+            />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/ic_my_location_black_24dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="480dp"/>
+    </RelativeLayout>

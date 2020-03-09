@@ -75,5 +75,31 @@
         </item>
 
     </style>
+    <style name="events">
+
+        <item name="android:textSize">
+            36sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="lorem_ipsum">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
 
 </resources>

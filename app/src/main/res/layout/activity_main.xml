@@ -7,6 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="@string/events"
+        android:textSize="40sp" />
+
     <RelativeLayout
         android:layout_width="360dp"
         android:layout_height="290dp"
